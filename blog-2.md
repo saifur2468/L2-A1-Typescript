@@ -10,7 +10,7 @@ TypeScript-এর মূল উদ্দেশ্য হলো কোডকে t
 
 `any` টাইপ ব্যবহার করলে TypeScript তার সব type checking বন্ধ করে দেয়। অর্থাৎ যেকোনো ধরনের অপারেশন করা যায়, কোনো error দেখায় না।
 
-**সমস্যা:** এতে ভুল কোডও compile হয়ে যায় এবং runtime error হয়।
+সমস্যা: এতে ভুল কোডও compile হয়ে যায় এবং runtime error হয়।
 
 ```ts id="a91ks2"
 let value: any = "Hello";
